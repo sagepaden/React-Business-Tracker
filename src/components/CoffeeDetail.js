@@ -12,11 +12,13 @@ function CoffeeDetail(props) {
           <Card.Title>{coffee.name}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{coffee.roast}</Card.Subtitle>
           <Card.Text>
-            <ul>
-              <li>Origin | {coffee.origin}</li>
-              <li>Price | ${coffee.price}</li>
-              <li>Quantity | {coffee.quantity}</li>
-            </ul>
+            <div>
+              <ul>
+                <li>Origin | {coffee.origin}</li>
+                <li>Price | ${coffee.price}</li>
+                <li>Quantity | {coffee.quantity}</li>
+              </ul>
+            </div>
           </Card.Text>
         </Card.Body>
       </Card>

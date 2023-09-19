@@ -12,7 +12,6 @@ function Coffee(props) {
           <li>Price per pound | ${props.price}</li>
           <li>Quantity | {props.quantity} lbs</li>
         </ul>
-        <hr />
       </div>
     </React.Fragment>
   );
